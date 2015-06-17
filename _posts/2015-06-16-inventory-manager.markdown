@@ -13,7 +13,7 @@ The driver app creates a menu system that users can navigate to manipulate the v
 #music.rb
 The music.rb file is the file for the music_collection table for the program. 
 
-##self.where_all_media_type method
+###self.where_ all_ media_ type method
 The self.where_all_media_type method is a class method. It selectes all the rows from the music_collection table where media_type is a specific id number. It then pushes those objects to an Array. 
 
 input - Integer, passed in from the user of the media_type_id to be searching for.
@@ -30,7 +30,7 @@ input - Integer, passed in from the user of the media_type_id to be searching fo
     return results_as_objects
   end
 ```
-##self.where_all_location method
+###self.where_ all_ location method
 The self.where_all_location method is a class method. It selectes all the rows from the music_collection table where location is a specific id number. It then pushes those objects to an Array.
 
 input - Integer, passed in from the user of the location_id to be searching for.
@@ -47,7 +47,7 @@ input - Integer, passed in from the user of the location_id to be searching for.
     return results_as_objects
   end
 ```
-##self.search_band_name
+###self.search_ band_ name
 The self.search_band_name is a class method that takes user input and searches the music_collection table for band names that match the search input. It then returns these as an Array of objects. 
 
 input - String, passed in from the user using the app.rb
@@ -64,7 +64,7 @@ input - String, passed in from the user using the app.rb
     return results_as_objects
   end
 ```
-##self.search_album_name
+###self.search_ album_ name
 The self.search_album_name is a class method that takes user input and searches the music_collection table for album names that match the search input. It then returns these as an Array of objects. 
 
 input - String, passed in from the user using the app.rb.
@@ -82,7 +82,7 @@ input - String, passed in from the user using the app.rb.
   end
 ```
 
-##save method
+###save method
 The save method is an instance method. This method takes information performed in ruby and updates the corresponding row's information.
 
 ```ruby
@@ -95,7 +95,7 @@ The save method is an instance method. This method takes information performed i
 #media-type.rb, location.rb and music.rb
 The media-type.rb file is the table for the different media types. The location.rb file is the table for the different locations. Both of these classes use the same 5 methods to add, find, read and delete information from their tables. Music.rb also uses these methods.
 
-##self.all method
+###self.all method
 The self.all method is a class method that selects all of the columns from the specified table. It then creates an empty Array and pushes each object to that Array. This method returns an Array of objects. 
 
 ```ruby
@@ -112,7 +112,7 @@ The self.all method is a class method that selects all of the columns from the s
   end
 ```
 
-##self.find method
+###self.find method
 The self.find method is a class method that finds an already existing row in the database and uses that to create a new object. 
 
 id - Integer of the uniqie id of the row the method is searching for. 
@@ -129,7 +129,7 @@ id - Integer of the uniqie id of the row the method is searching for.
    end
 ```
 
-##self.add method
+###self.add method
 The self.add method is a class method that adds a new row to the database table and then creates a new object to connect to that row.
 
 type - a String of the type of media
@@ -144,7 +144,7 @@ type - a String of the type of media
   end
 ```
 
-##delete method
+###delete method
 The delete method for the MediaType class and Location class check to see if the instance that is to be deleted is an empty Array. If it is empty then it will delete that instance. If the Array is not empty it will return false. The delete method for MusicCollection does not check for an empty Array.
 
 ```ruby
@@ -158,6 +158,6 @@ The delete method for the MediaType class and Location class check to see if the
  end
 ```
 
-##to_s method
+###to_s method
 This method will put to string whatever is inside that method. It is used in all of the classes to make the app.rb cleaner. 
 
