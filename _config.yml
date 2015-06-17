@@ -1,0 +1,12 @@
+# Site settings
+title: Cam's Blog
+email: cameronhelkuik@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  camhelkuik
+
+# Build settings
+markdown: redcarpet
