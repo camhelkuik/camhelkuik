@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Invnetory Manager"
+date:   2015-06-16
+categories: code
+---
+
 #Home Music Inventory Manager
 I created an inventory manager for my home music collection. The program creates a SQL database with three tables: music_collection, media_types, and locations. Each table can be accessed through a class: MusicCollection, MediaType and Location. The program allows a user to add, read, change and delete information from the various tables. The music collection table has 5 columns: unique id, band name, album name, media type id, and location id. The media type table has 2 columns: a unique id and type of media. The location table has 2 columns: a unique id and name of the different locations. 
 
