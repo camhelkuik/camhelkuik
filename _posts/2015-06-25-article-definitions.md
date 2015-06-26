@@ -14,7 +14,9 @@ A model is a class that is connected to a database.
 A method is a block of code that returns a value. We use methods for when we need to run the same code many times in a program. Methods belong to a class and can be used on a class object. 
 
 Example of a method:
+
 ```ruby
+
   def hello
     puts "Hello! I am a method."
   end
