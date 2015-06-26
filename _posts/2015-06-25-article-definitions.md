@@ -15,9 +15,9 @@ A method is a block of code that returns a value. We use methods for when we nee
 
 Example of a method:
 ```ruby
-def hello
-  puts "Hello! I am a method."
-end
+  def hello
+    puts "Hello! I am a method."
+  end
 ```
 #Variable
 A variable is something that stores data. The data can be a variety of value types such as: integer, string, hash,etc. Variables are given individual names and they hold specific objects. For example: name = Cameron. Name is the given variable name and Cameron is the object that it is refering to. 
