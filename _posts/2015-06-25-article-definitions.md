@@ -16,20 +16,17 @@ A method is a block of code that returns a value. We use methods for when we nee
 Example of a method:
 ```ruby
 def hello
-  puts "Hello! I am a method"
+  puts "Hello! I am a method."
 end
 ```
 #Variable
-A variable is something that stores data. The data can be a variety of types such as: integer, string, etc. Variables are assigned individual names and they hold specific objects. For example: name = Cameron. Name is the variable name and Cameron is the object that it is refering to. 
+A variable is something that stores data. The data can be a variety of value types such as: integer, string, hash,etc. Variables are given individual names and they hold specific objects. For example: name = Cameron. Name is the given variable name and Cameron is the object that it is refering to. 
 
 #Request
-What is a request? 
+A request is the user input that has asked for our program to do something. It could me a click on a link to typing something into a form and hitting the submit button. The user is requesting our program to take their input and return something.  
 
 #Route
-A route is a way to connect the request to the controllers. It looks to see what the request is and matches it to the correct controller.
+A route is the way to connect the request to the controllers. It looks to see what the request is and matches it to the correct controller. The controller has the "action" that the program is supposed to due.
 
 #Response
-In the context of a web application, what is a "response"?
-
-
-How to get approval: Submit a link to your blog article as a DM to Sumeet. Please do not post this link in a help channel.
+After the request is routed to the right controller and the program "gets" what was requested the program then sends the response. The response is what our program returns to the user. 
